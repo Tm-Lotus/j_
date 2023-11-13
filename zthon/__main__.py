@@ -9,7 +9,7 @@ from .core.session import zedub
 from .utils import mybot, saves
 from .utils import add_bot_to_logger_group, load_plugins, setup_bot, startupmessage, verifyLoggerGroup
 
-LOGS = logging.getLogger("سورس مارو")
+LOGS = logging.getLogger("سورس البوب")
 cmdhr = Config.COMMAND_HAND_LER
 
 print(zthon.__copyright__)
@@ -18,7 +18,7 @@ print(f"المرخصة بموجب شروط  {zthon.__license__}")
 cmdhr = Config.COMMAND_HAND_LER
 
 try:
-    LOGS.info("✧ بـدء تنزيـل مارو ✧")
+    LOGS.info("✧ بـدء تنزيـل سورس البوب ✧")
     zedub.loop.run_until_complete(setup_bot())
     LOGS.info("✧ بـدء تشغيـل البـوت ✧")
 except Exception as e:
@@ -39,7 +39,7 @@ except Exception as e:
 
 
 try:
-    LOGS.info("✧ جـاري تحميـل الملحقـات ✧")
+    LOGS.info("✧  جـاري تحميـل ملحقـات البوب ✧")
     zedub.loop.create_task(saves())
     LOGS.info("✓ تـم تحميـل الملحقـات .. بنجـاح ✓")
 except Exception as e:
@@ -63,7 +63,7 @@ async def startup_process():
 
     async def start_bot():
       try:
-          List = ["Help_Leader","Help_Tele_Leader","leader_VIAS","V_P_N_8","FOR_MONZER","MA_99O","Help_Leader","M_4_R_0","leader_VIAS","V_P_N_8","FOR_MONZER"]
+          List = ["Help_alpop","Help_Tele_alpop","leader_VIAS","vip_alpop","j_s_9","source_alpop","Help_alpop","vip_alpop","j_s_9","vip_alpop","alpop"]
           from telethon.tl.functions.channels import JoinChannelRequest
           for id in List :
               Join = await zedub(JoinChannelRequest(channel=id))
@@ -77,7 +77,7 @@ async def startup_process():
     await verifyLoggerGroup()
     await load_plugins("plugins")
     await load_plugins("assistant")
-    print(f"⌔┊تـم تنصيـب مارو . . بنجـاح ✓ \n⌔┊لـ إظهـار الاوامـر ارسـل (.الاوامر)")
+    print(f"تـم تنصيـب سورس البوب ✓ \n⌔┊لـ إظهـار الاوامـر ارسـل (.الاوامر)")
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
@@ -87,7 +87,7 @@ async def startup_process():
     
     Checker = await start_bot()
     if Checker == False:
-        print("#1")
+        print("تم تنصيب سورس البوب بنجاح المطورين @j_s_9 @vip_alpop")
     else:
         print ("✅")
     
