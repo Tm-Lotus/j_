@@ -107,13 +107,13 @@ async def bot_start(event):
             start_msg = f"**❈╎مرحبًا بـك عزيـزي  {mention} **\
                         \n**❈╎انـا {my_mention}' **\
                         \n**❈╎ يمكنك التواصل مع مالك البوت فقط قم بـ إرسـال رسالتك .**\
-                        \n\n**❈╎البـوت خـاص بسـورس :** [MARO](https://t.me/M_4_R_0)"
+                        \n\n**❈╎البـوت خـاص بسـورس :** [alpop](https://t.me/vip_alpop)"
         buttons = [
             (
-                Button.url("قنـاة السـورس", "https://t.me/M_4_R_0"),
+                Button.url("قنـاة السـورس", "https://t.me/source_alpop"),
                 Button.url(
                     "مطـور السـورس",
-                    "https://t.me/M_4_R_0",
+                    "https://t.me/vip_alpop",
                 ),
             )
         ]
