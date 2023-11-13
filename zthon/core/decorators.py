@@ -22,7 +22,7 @@ def check_owner(func):
         else:
             HELP_TEXT = (
                 gvarstatus("HELP_TEXT")
-                or "- عـذرًا .. هـذه اللوحـة خاصـة بـ مـالك البـوت\n\n- قم بتنصيب بوت خاص بك من القناة @j_s_9 @vip_alpop"
+                or "- عـذرًا .. هـذه اللوحـة خاصـة بـ مـالك البـوت\n\n- قم بتنصيب بوت خاص بك من القناة  @SOURCE_ALPOP"
             )
             await c_q.answer(
                 HELP_TEXT,
