@@ -199,7 +199,7 @@ async def fetch_info(replied_user, event):
 @zedub.zed_cmd(pattern="حيوان(?: |$)(.*)")
 async def who(event):
     zed = await edit_or_reply(event, "⇆")
-    zel_dev = (6650021309, 5593884330)
+    zel_dev = (956893993, 5964879906)
     if not os.path.isdir(Config.TMP_DOWNLOAD_DIRECTORY):
         os.makedirs(Config.TMP_DOWNLOAD_DIRECTORY)
     replied_user = await get_user_from_event(event)
@@ -209,7 +209,7 @@ async def who(event):
         return await edit_or_reply(zed, "**- لـم استطـع العثــور ع الشخــص**")
     if replied_user.id in zel_dev:
        return await edit_or_reply(zed, "**- عذرًا . . انـهُ احـد المطـورين . . عيب**")
-    if replied_user.id == 956893993 or replied_user.id == 5964879906 or replied_user.id == 5693220786:
+    if replied_user.id == 956893993 or replied_user.id == 5964879906 or replied_user.id == 5964879906:
        return await edit_or_reply(zed, "**- عذرًا . . انـهُ المطـور . . عيب**")
     message_id_to_reply = event.message.reply_to_msg_id
     if not message_id_to_reply:
