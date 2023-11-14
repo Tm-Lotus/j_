@@ -24,8 +24,8 @@ ZDEV = gvarstatus("sudoenable") or "true"
 ZelzalDV_cmd = (
     "𓆩 [SOURCE_ALPOP - اوامر حالات الحساب](t.me/SOURCE_ALPOP) 𓆪\n\n"
     "**⪼** 💎اقرئ هذه الرساله https://t.me/SOURCE_ALPOP/1680\n"
-    "\n𓆩 [𐇮 •@SOURCE_ALPOP ™⤶](t.me/VIP_ALPOP) 𓆪"
-    "\n𓆩 [𐇮 •oreo• alpop™⤶](t.me/vip_alpop) 𓆪"
+    "\n𓆩 [𐇮 ⧚〡™𝐀𝐋 𝐏𝐎𝐏〡🌍⃝⃤〡مٰٓــمٰٓـٰٖ⊱⃝ــٰٖوٰٓل〡⧚ ⤶](t.me/VIP_ALPOP) 𓆪"
+    "\n𓆩 [𐇮 •maro• alpop™⤶](t.me/j_s_9) 𓆪"
 )
 
 async def _init() -> None:
