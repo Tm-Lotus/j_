@@ -21,12 +21,12 @@ LOGS = logging.getLogger(__name__)
 ZDEV = gvarstatus("sudoenable") or "true"
 
 ZelzalDV_cmd = (
-    "𓆩 [𝐃𝐄𝐕 •𝐒𝐎𝐔𝐑𝐂𝐄 𝐀𝐋𝐏𝐎𝐏 ‌ ‌⤶](t.me/DAD_E3DAM) 𓆪\n\n"
+    "𓆩 [⧚〡™𝐀𝐋 𝐏𝐎𝐏〡🌍⃝⃤〡مٰٓــمٰٓـٰٖ⊱⃝ــٰٖوٰٓل〡⧚](t.me/vip_alpop) 𓆪\n\n"
     "**⪼** 💎•𝐒𝐎𝐔𝐑𝐂𝐄 𝐀𝐋𝐏𝐎𝐏 ‌ ‌⤶\n"
-    "**⪼** 💎𝐔𝐒𝐄𝐑: @vip_alpop\n"
+    "**⪼** 💎𝐔𝐒𝐄𝐑: @source_alpop\n"
     "**⪼** 💎𝐈𝐃: 5964879906\n"
     "**⪼** 💎𝐁𝐈𝐎✹: ههههه لول\n"
-    "\n𓆩 [𐇮 𝐒𝐎𝐔𝐑𝐂𝐄 𝐀𝐋𝐏𝐎𝐏 ‌ ‌  𐇮](t.me/j_s_9) 𓆪"
+    "\n𓆩 [𝐒𝐎𝐔𝐑𝐂𝐄 𝐀𝐋𝐏𝐎𝐏 ](t.me/source_alpop) 𓆪"
 )
 
 
