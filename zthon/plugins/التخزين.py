@@ -243,12 +243,12 @@ async def set_grplog(event):
     GRPLOG = not gvarstatus("GRPLOG") or gvarstatus("GRPLOG") != "false"
     if GRPLOG:
         if h_type:
-            await event.edit("**- تخزين الكـروبات بالفعـل ممكـن ✓**")
+            await event.edit("**- تخزين الجـروبات بالفعـل ممكـن ✓**")
         else:
             addgvar("GRPLOG", h_type)
-            await event.edit("**- تـم تعطيـل تخـزين تاكـات الكـروبات .. بنجـاح✓**")
+            await event.edit("**- تـم تعطيـل تخـزين تاجات الجروبات .. بنجـاح✓**")
     elif h_type:
         addgvar("GRPLOG", h_type)
-        await event.edit("**- تـم تفعيـل تخـزين تاكـات الكـروبات .. بنجـاح✓**")
+        await event.edit("**- تـم تفعيـل تخـزين تاجات الجروبات .. بنجـاح✓**")
     else:
-        await event.edit("**- تخزين الكـروبات بالفعـل معطـل ✓**")
+        await event.edit("**- تخزين الجـروبات بالفعـل معطـل ✓**")
