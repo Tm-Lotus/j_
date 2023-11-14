@@ -21,10 +21,10 @@ LOGS = logging.getLogger(__name__)
 ZDEV = gvarstatus("sudoenable") or "true"
 
 ZelzalDV_cmd = (
-    "𓆩 [𝐒𝐎𝐔𝐑𝐂𝐄 ✘𓆩𝗠𝗔𝗥𝗢𖠲𓆪 ™✹- اوامر رشق التفاعلات](t.me/MA_99O) 𓆪\n\n"
+    "𓆩 [ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐀𝐋𝐏𝐎𝐏- اوامر رشق التفاعلات](t.me/SOURCE_ALPOP) 𓆪\n\n"
     "**⏎** اهلا بك في اوامر رشق مشاهدات\n"
     "**⏎**لاستعمال الامر ⏎ 𐇮.رشق تفاعل +رابط المنشور ⏎\n"
-    "\n𓆩 [𐇮 𝗦𝗢𝗨𝗥𝗖𝗘 ✘𓆩𝗠𝗔𝗥𝗢𖠲𓆪 ™  𐇮](t.me/MA_99O) 𓆪"
+    "\n𓆩 [𐇮 𝐒𝐎𝐔𝐑𝐂𝐄 𝐀𝐋𝐏𝐎𝐏   𐇮](t.me/SOURCE_ALPOP) 𓆪"
 )
 
 
